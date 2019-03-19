@@ -1,174 +1,96 @@
-	
-	body
-	{
-		height: 100%;
-		margin: 0px;
-		padding: 0px;
-		background: #333333;
-		font-family: 'Montserrat', sans-serif;
-		font-size: 12pt;
-		font-weight: 400;
-		color: #000000;
-	}
-	
-	
-	h1, h2, h3
-	{
-		margin: 0;
-		padding: 0;
-	}
-	
 
-	.container
-	{
-		margin: 1em 1.5em;
-		align-self: center
-		/* width: 100%; */
-	}
-		
-/*********************************************************************************/
-/* Heading Titles                                                                */
-/*********************************************************************************/
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
 
-	.title
-	{
-		margin-bottom: 1.5em;
-	}
-	
-	.title h2
-	{
-		font-size: 2.8em;
-		color: rgba(255,255,255,0.9);
-		margin-bottom: 1.5em;
-	}
+body
+{
+	background: #EDEDED;
+	font-family: 'Montserrat', sans-serif;
+	align-self: center;
+}
 
-	h3
-	{
-		display: block;
-		margin-bottom: 1em;
-		padding-bottom: 1em;
-		border-bottom: 1px solid rgba(0,0,0,0.1);
-		text-transform: uppercase;
-		font-size: 1.3em;
-		letter-spacing: 0.1em;
-		color: rgba(0,0,0,0.6);
-	}
-	
-	.title .byline
-	{
-		letter-spacing: 0.15em;
-		text-transform: uppercase;
-		font-weight: 400;
-		font-size: 1.1em;
-		color: #6F6F6F;
-	}
+.wrapper
+{
+	width: 100%;
+	text-align: center;
+	align-self: center;
+	margin: 3em;
+}
 
-	.byline2
-	{
-		letter-spacing: 0.15em;
-		text-transform: uppercase;
-		font-weight: 400;
-		font-size: 1.5em;
-		color: #6F6F6F;
-	}
+.themeColor
+{
+	color: #35c699;
+}
 
-/*********************************************************************************/
-/* Wrapper                                                                       */
-/*********************************************************************************/
+h2
+{
+	font-size: 2.8em;
+	color: rgba(0, 0, 0, 0.8);;
+	margin-bottom: 1em;
+}
 
-	#wrapper1
-	{
-		background: #EDEDED;
-		display: flex;
-		width: 100%;
-		height: 100%;
-		justify-content: center;
-	}
+h3
+{
+	justify-self: right;
+	margin-bottom: 1em;
+	margin-top: 2em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	text-transform: uppercase;
+	font-size: 1.3em;
+	letter-spacing: 0.1em;
+	color: rgba(0,0,0,0.6);
+}
 
-/*********************************************************************************/
-/* Welcome                                                                       */
-/*********************************************************************************/
+.byline
+{
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.1em;
+	color: #6F6F6F;
+}
 
-	#welcome
-	{
-		overflow: hidden;
-		padding: 8em 0em;
-		text-align: center;
-		color: rgba(0,0,0,0.5);
-	}
-	
-	#welcome .content
-	{
-		padding: 0em 8em;
-	}
+.byline2
+{
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.5em;
+	color: #6F6F6F;
+}
 
-	#welcome .title
-	{
-		text-align: center;
-	}
+.icon-container
+{
+	overflow: hidden;
+	margin-top: 1.2em;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
 
-	#welcome .title h2
-	{
-		color: rgba(0,0,0,0.8);
-	}
+.icon
+{
+	display: block;
+	margin-bottom: 1em;
+	font-size: 1.5em;
+	color: rgba(0,0,0,0.6);
+}
 
-	#welcome .title h3
-	{
-		color: rgba(0,0,0,0.8);
-	}
-	
-	#welcome a,
-	#welcome strong
-	{
-		color: rgba(0,0,0,0.8);
-	}
-	
-/*********************************************************************************/
-/* Portfolio                                                                     */
-/*********************************************************************************/
-	.box
-	{
-		font-size: .9em;
-	}
+.box
+{
+	font-size: .9em;
+	padding: 0em 1em 1em 1em;
+	text-align: center;
+}
 
-	.box a
-	{
-		text-decoration: none;
-	}
-
-	#portfolio .pbox1
-	{
-		overflow: hidden;
-		margin-top: 1.2em;
-		display: flex;
-		align-content: center;
-		align-items: center;
-		justify-content: center;
-	}
-	
-	#portfolio .box
-	{
-		padding: 0em 1em 1em 1em;
-		text-align: center;
-		color: rgba(0,0,0,0.5);
-	}
-	
-	#portfolio h3
-	{
-		display: block;
-		margin-bottom: 1em;
-		padding-bottom: 1em;
-		border-bottom: 1px solid rgba(0,0,0,0.1);
-		text-transform: uppercase;
-		font-size: 1em;
-		color: rgba(0,0,0,0.6);
-	}
-
-	.icon
-	{
-		display: block;
-		margin-bottom: 1em;
-		font-size: 2em;
-		color: #3fe4b0;
-	}
-	
+.box a
+{
+	text-decoration: none;
+}
